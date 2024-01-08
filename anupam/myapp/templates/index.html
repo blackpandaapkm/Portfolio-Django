@@ -86,7 +86,7 @@
                 <div class="card bg-black text-white">
                     <div class="card-body">
                         <h5 class="card-title">Birthday</h5>
-                        <p class="card-text">12th August 1990</p>
+                        <p class="card-text">{{ about.birthday }}</p>
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                 <div class="card bg-black text-white">
                     <div class="card-body">
                         <h5 class="card-title">Address</h5>
-                        <p class="card-text">123 Main Street, Anytown, USA</p>
+                        <p class="card-text">{{ about.address }}</p>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                 <div class="card bg-black text-white ">
                     <div class="card-body">
                         <h5 class="card-title">Email</h5>
-                        <p class="card-text">example@email.com</p>
+                        <p class="card-text">{{ about.email }}</p>
                     </div>
                 </div>
             </div>
@@ -133,14 +133,14 @@
                             <img src="{% static 'assets/imgs/responsive.svg '%}"
                                 class="icon">
                             <h6 class="title">Web Development</h6>
-                            <p class="subtitle"> Django, Php, javascript</p>
+                            <p class="subtitle"> Django, Php, javascript, Flutter</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="{% static 'assets/imgs/toolbox.svg'%}"
+                            <img src="{% static 'assets/imgs/ai.png'%}"
                                 class="icon">
                             <h6 class="title">Artificial intelligence</h6>
                             <p class="subtitle"> Machine Learning, Deep Learning, Data Science</p>
@@ -150,10 +150,10 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="{% static 'assets/imgs/analytics.svg'%}"
+                            <img src="{% static 'assets/imgs/robotics.png'%}"
                                 class="icon">
                             <h6 class="title">Robotics</h6>
-                            <p class="subtitle"> Arduino, Esp, Python, IOT</p>
+                            <p class="subtitle"> Arduino, Esp, Python, Iot, Automation</p>
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <a href="#" class="portfolio-card">
-                        <img src="{% static 'assets/imgs/folio-1.jpg '%}" class="portfolio-card-img">
+                        <img class="portfolio-card-img" src="{% static 'assets/imgs/logo (1).png '%}" class="img-responsive rounded" >
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
                                 <h4>HALUMPAY</h5>
@@ -181,7 +181,7 @@
                 </div>
                 <div class="col-md-4">
                     <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="{% static 'assets/imgs/folio-2.jpg'%}" class="img-responsive rounded">
+                        <img class="portfolio-card-img" src="{% static 'assets/imgs/logo.png'%}" class="img-responsive rounded">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
                                 <h4>Sanzi</h5>
@@ -192,7 +192,7 @@
                 </div>
                 <div class="col-md-4">
                     <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="{% static 'assets/imgs/folio-3.jpg'%}" class="img-responsive rounded">
+                        <img class="portfolio-card-img" src="{% static 'assets/imgs/citytransport.jpg'%}" class="img-responsive rounded">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
                                 <h4>City-Transport-Service</h5>
@@ -344,7 +344,7 @@
             <!-- blog-wrapper -->
             <div class="blog-card">
                 <div class="blog-card-header">
-                    <img src="{% static 'assets/imgs/img-1.jpg'%}" class="blog-card-img">
+                    <img src="{% static 'assets/imgs/logo (1).png'%}" class="blog-card-img">
                 </div>
                 <div class="blog-card-body">
                     <h5 class="blog-card-title">HALUMPAY</h6>
@@ -367,7 +367,7 @@
             <!-- blog-wrapper -->
             <div class="blog-card">
                 <div class="blog-card-header">
-                    <img src="{% static 'assets/imgs/img-2.jpg'%}" class="blog-card-img">
+                    <img src="{% static 'assets/imgs/sanzi.jpg'%}" class="blog-card-img">
                 </div>
                 <div class="blog-card-body">
                     <h5 class="blog-card-title">SANZI</h6>
